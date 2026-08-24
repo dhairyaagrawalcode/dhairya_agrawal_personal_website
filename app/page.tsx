@@ -416,7 +416,7 @@ export default function page() {
           <div className="bg-white/[0.02] border border-white/5 px-3 py-1 rounded-lg hidden md:flex items-center gap-2">
             <div className="w-1.5 h-1.5 rounded-full bg-[#4FD1C5] animate-pulse" />
             <span className="text-[10px] font-mono text-[#4FD1C5] font-bold uppercase tracking-wider">
-              COLLEGE START : {profileStart}
+              COLLEGE : {profileStart}
             </span>
           </div>
         </div>
@@ -461,12 +461,9 @@ export default function page() {
               Academic Destination Node
             </span>
             <p className="text-gray-300 mt-0.5">
-              Incoming B.Tech Undergrad student at{" "}
+             B.Tech Undergrad student at{" "}
               <span className="text-white font-bold">{profileCollege}</span>{" "}
-              starting in{" "}
-              <span className="text-amber-400 font-mono font-bold">
-                {profileStart}
-              </span>
+              
               .
             </p>
           </div>
